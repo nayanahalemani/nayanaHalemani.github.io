@@ -1,0 +1,132 @@
+* {
+   /* list-style-type: none;*/
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+   /* background-color: #333;*/
+}
+
+body{
+     font-size: 18px;
+     font-family: Georgia,Times,serif;
+     background-color:whitesmoke;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+     
+#container #container1 #container3 #container5 {
+    width: auto;
+    margin: 0 auto;
+    
+}
+
+header {
+    text-align: center;
+    color:#333;
+        
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #fad505;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/**  CSS floats used to about page*/
+
+#container2 {
+    padding: 20px;    
+    position:absolute;
+    top: 180px;
+    left:340px;
+    width: 800px;
+    height:470px;
+    border: 3px solid #fad505;
+}
+#container2 p {text-align:justify;}
+#nayana1{
+    padding-left: 20px;
+    box-shadow: 10px 10px black;
+    
+}
+
+#nayana1
+{
+    float:right;
+    margin 0,0,10px,20px;
+}
+
+/** experience**/
+
+#panel,#flip, #flip2, #panel2 {
+    box-sizing: 50px,50px
+    padding:0px;
+    text-align:justify;
+    background-color: #e5eecc;
+    border: solid 1px #fad505;
+    font-family: Georgia,Times,serif;
+}
+
+#flip,#flip2{  background-color: #fad505;}
+
+#panel,#panel2 {
+    
+    text-align: justify;
+    padding: 10px;
+    border-color: black;
+    display: none;
+}
+
+h1{text-align: center;}
+#back{
+    
+    background-image:url("IMG_1603.jpg");
+    background-position:center;
+    background-repeat: no-repeat, repeat;
+    padding-bottom: 500px; 
+    
+}
+
+/**** education**/
+#container6 {
+    padding: 20px;    
+    position:absolute;
+    top: 180px;
+    left:540px;
+    width: 400px;
+    height:250px;
+    border: 3px solid #fad505;
+}
+#container6 p {text-align:justify;}
+#nayana1{
+    padding-left: 20px;
+    box-shadow: 10px 10px black;
+    
+    /** contact**/
+    
+   
+  
